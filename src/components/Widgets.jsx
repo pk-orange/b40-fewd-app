@@ -4,8 +4,13 @@ import styled from 'styled-components'
 const SWidgets = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  @media (max-width: 750px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const Widgets = (props) => {

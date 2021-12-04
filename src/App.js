@@ -14,7 +14,7 @@ function App() {
       <Widgets>
         <Summary />
         <Overview />
-        <GalleryPlaceholder />
+
         <Buttons />
       </Widgets>
     </Container>

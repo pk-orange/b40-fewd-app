@@ -6,7 +6,7 @@ const SGalleryPlaceholder = styled.div`
 `
 
 export const GalleryPlaceholder = (props) => {
-  return <SGalleryPlaceholder>hi</SGalleryPlaceholder>
+  return <SGalleryPlaceholder></SGalleryPlaceholder>
 }
 
 export default GalleryPlaceholder
